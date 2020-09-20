@@ -4,7 +4,7 @@ body, html {
   margin: 0;
   font-family: 'constantia', sans-serif;
   scroll-behavior: smooth;
-
+  position:fixed
 
 
 }
@@ -119,6 +119,44 @@ a {
 
 }
 
+
+/*///////////////////////////////////////*/
+                /*KONTEN*/
+/*///////////////////////////////////////*/
+
+.konten {
+  background-image: url("uta3.png");
+  background-image: url("uta3.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  z-index: -1;
+}
+
+
+.caption {
+  position: absolute;
+  transform: translateX(70%);
+  right: 50%;
+  top: 35%;
+  color: #000;
+}
+
+.caption span.border {
+  color: black;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.title{
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
 @media screen and (max-width: 768px) {
       .nav:hover .garis-nama {
         width: unset !important;
@@ -180,39 +218,40 @@ a {
         }
       }
 
+      .konten {
+        background-position: unset;
+        position: relative;
+        margin-left: -20px;
+        background-image: url("uta3ubah.png");
+        background-image: url("uta3ubah.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
+      }
+
+      .caption {
+        position: absolute;
+        transform: unset !important;
+        width: 100%;
+        right: -5%;
+        top: 50%;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 5px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        text-align: center;
+      }
+
+      .caption span.title {
+        background-color: #111;
+        color: #fff;
+        padding: 5px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
     }
-/*///////////////////////////////////////*/
-                /*KONTEN*/
-/*///////////////////////////////////////*/
-
-.konten {
-  background-image: url("uta2.png");
-  background-image: url("uta2.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-size: cover;
-  min-height: 100%;
-  z-index: -1;
-}
-
-
-.caption {
-  position: absolute;
-  transform: translateX(70%);
-  right: 50%;
-  top: 35%;
-  color: #000;
-}
-
-.caption span.border {
-  color: black;
-  font-size: 70px;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.title{
-  padding: 10px;
-  letter-spacing: 2px;
-}
