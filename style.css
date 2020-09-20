@@ -115,6 +115,7 @@ a {
       }
       .nama{
         font-size: 30px;
+        width: 100%;
       }
 
       .navbar .menu{
@@ -126,6 +127,9 @@ a {
         float: right;
         line-height: 50px;
         padding: 0px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
       }
       .navbar.responsive .icon{
         position: absolute;
@@ -141,6 +145,6 @@ a {
       .navbar.responsive .menu a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
     }
