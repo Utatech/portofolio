@@ -10,17 +10,18 @@
 	<script type="text/javascript" src="assets/custom.js"></script>
 </head>
 <body>
-	<header class="header">
+	<header id="header">
 		<h3 class="nama">Putra Prawira<hr class="garis-nama"></h3>
 		<ul class="navbar" id="mynavbar">
 			<li class="menu"><a href="#">Whatsapp</a><hr class="garis-menu"></li>
-			<li class="menu"><a href="#">Facebook</a><hr class="garis-menu"></li>
+			<li class="menu"><a href="http://fb.me/putra603">Facebook</a><hr class="garis-menu"></li>
 			<li class="menu"><a href="#portofolio">Portofolio</a><hr class="garis-menu"></li>
 			<li class="menu"><a href="#">Home</a><hr class="garis-menu"></li>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-
 		</ul>
-	</header>
+	</header><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	Love You
+	<br>
 	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
 
 </body>
@@ -34,4 +35,16 @@
       }
     }
   </script>
+  <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0px";
+  } else {
+    document.getElementById("header").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </html>
