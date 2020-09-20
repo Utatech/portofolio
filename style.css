@@ -23,115 +23,7 @@ a {
   color: black;
 }
 
-
-/* PARALAX */
-.bg-1, .bg-2 {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg-1 {
-  background-image: url('assets/01.jpg');
-  min-height: 100%;
-}
-
-.bg-2 {
-  background-image: url('assets/03.jpg');
-  min-height: 100%;
-}
-
-.chevron-container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.paragraph {
-  color: #ecf0f1;
-  background-color: #2c3e50;
-  padding: 50px 80px;
-  text-align: justify;
-}
-
-
 /* CUSTOM */
-
-header {
-  width: 85%;
-  margin: auto;
-  height: 50px;
-}
-
-header h3 {
-  float: left;
-  margin-left: 10px;
-  line-height: 50px;
-  text-transform: uppercase;
-}
-
-header h3 hr {
-  transition: width 0.3s ease;
-  width:0%;
-  float:right;
-  border-style: none;
-  background: #000;
-  height: 1px;
-  margin-top:-10px;
-}
-
-header h3:hover hr {
-  width: 100%;
-  float: left;
-}
-
-header ul li {
-  display: inline-block;
-  float: right;
-  line-height: 50px;
-  margin-right: 10px;
-  text-transform: uppercase;
-  font-weight: 500;
-
-}
-
-
-ul li hr{
-  transition: width 0.3s ease;
-  width:0%;
-  float:right;
-  border-style: none;
-  background: #000;
-  height: 1px;
-  margin-top:-10px;
-}
-
-.satu:hover > hr{
-  width: 100%;
-  float: left;
-}
-
-.dua:hover > hr{
-  width: 100%;
-  float: left;
-}
-
-.tiga:hover > hr{
-  width: 100%;
-  float: left;
-}
-
-.empat:hover > hr{
-  width: 100%;
-  float: left;
-}
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -157,3 +49,99 @@ ul li hr{
     background-color: #DDF;
     color: #000;
 }
+
+
+.header {
+  width: 85%;
+  margin: auto;
+  height: 50px;
+}
+
+.nama { /*INI PUTRA PRAWIRA*/
+  float: left;
+  margin-left: 10px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+
+.garis-nama { /* INI NAVIGASAI */
+  transition: width 0.3s ease;
+  width:0%;
+  float:right;
+  border-style: none;
+  background: #000;
+  height: 1px;
+  margin-top:-10px;
+}
+
+
+.nama:hover .garis-nama {
+  width: 100%;
+  float: left;
+}
+
+.header .menu {
+  display: inline-block;
+  float: right;
+  line-height: 50px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.garis-menu{
+  transition: width 0.3s ease;
+  width:0%;
+  float:right;
+  border-style: none;
+  background: #000;
+  height: 1px;
+  margin-top:-10px;
+}
+
+.menu:hover .garis-menu {
+  width: 100%;
+  float: left;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+      .header {
+        width: 100%;
+        border: 1px solid black;
+      }
+      .nama{
+        font-size: 30px;
+        width: 90%;
+      }
+
+      .navbar .menu{
+        display: none;
+      }
+
+      .icon{
+        display: block;
+        float: right;
+        line-height: 50px;
+        padding: 0px 20px;
+      }
+      .navbar.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .navbar.responsive .menu {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      .navbar.responsive .menu a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
