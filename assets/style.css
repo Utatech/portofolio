@@ -125,8 +125,8 @@ a {
 /*///////////////////////////////////////*/
 
 .konten {
-  background-image: url("uta4.png");
-  background-image: url("uta4.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
+  background-image: url("uta5.png");
+  background-image: url("uta5.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -222,8 +222,8 @@ a {
         background-position: unset;
         position: relative;
         margin-left: -20px;
-        background-image: url("uta4ubah.png");
-        background-image: url("uta4ubah.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
+        background-image: url("uta5ubah.png");
+        background-image: url("uta5ubah.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
       }
 
       .caption {
