@@ -4,9 +4,6 @@ body, html {
   margin: 0;
   font-family: 'constantia', sans-serif;
   box-sizing: border-box;
-
-
-
 }
 
 h1,h2,h3,h4,h5,h6,p,span{
@@ -139,7 +136,7 @@ a {
 
 
 .konten {
-  background-image: url("uta5.png");
+  background-image: url("utamid.png");
   min-height: 100%;
   z-index: -1;
 }
@@ -153,7 +150,7 @@ a {
 .caption {
   position: absolute;
   transform: translateX(70%);
-  right: 50%;
+  right: 30%;
   top: 35%;
   color: #000;
 }
@@ -199,6 +196,10 @@ a {
 
 
 @media screen and (max-width: 767px) {
+      body, html {
+        overflow-x: hidden; 
+      }
+
       .nav:hover .garis-nama {
         width: unset !important;
         float: unset !important;
