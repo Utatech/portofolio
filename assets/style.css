@@ -136,7 +136,7 @@ a {
 
 
 .konten {
-  background-image: url("utamid.png");
+  background-image: url("utamid.png"),linear-gradient(90deg, rgba(195,255,254,0.036852240896358524), rgba(170,196,198,1));
   min-height: 100%;
   z-index: -1;
 }
