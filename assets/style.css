@@ -197,7 +197,7 @@ a {
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
       body, html {
         overflow-x: hidden; 
       }
@@ -210,6 +210,7 @@ a {
 
       #header {
         width: 100%;
+        background-color: white;
         left: 0;
       }
       .nav{
@@ -262,6 +263,10 @@ a {
         }
       }
 
+
+      .konten, .portofolio {
+        background-attachment: scroll;
+      }
       .konten {
         background-position: unset;
         position: relative;
@@ -325,6 +330,7 @@ a {
 
       #header {
         width: 100%;
+        background-color: white;
         left: 0;
       }
       .nav{
@@ -377,6 +383,10 @@ a {
         to {
           opacity: 1;
         }
+      }
+
+      .konten, .portofolio {
+        background-attachment: scroll;
       }
 
       .konten {
