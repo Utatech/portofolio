@@ -312,7 +312,9 @@ a {
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+      body, html {
+        overflow-x: hidden; 
+      }
       .nav:hover .garis-nama {
         width: unset !important;
         float: unset !important;
